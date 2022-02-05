@@ -1,0 +1,109 @@
+.hammer_header{
+  width: 135.75px;
+  height: 128px;
+  margin-left: 50px;
+}
+
+.main_1{
+  font-size: 64px;
+  text-align: center;
+}
+
+.flag_1{
+  width: 750px;
+  height: 450px;
+}
+
+.flag_main{
+  text-align: center;
+}
+
+.h2_1{
+  font-size: 32px;
+  text-align: center;
+}
+
+.h2_2{
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+footer{
+  margin-top: 150px;
+  margin-bottom: 100px;
+}
+
+.footer_1{
+  font-size: 16px;
+  text-align: center;
+}
+
+.file_main{
+ transition: none
+}
+.file_main a{
+  font-size: 64px;
+  text-align: left;
+  color: gray;
+  margin-left: 12vw;
+  transition: all 0.5s 0s ease;
+  cursor: pointer;
+  display: block;
+  text-decoration: none;
+}
+
+.file_main a:hover{
+  text-decoration: none;
+  font-size: 64px;
+  text-align: left;
+  margin-left: 13vw;
+  color: black;
+}
+
+.hr_1{
+  text-align: center;
+}
+
+.hr_1 hr{
+  margin-top: 0px;
+  border: none;
+  border-top: groove 1px gray;
+  border-bottom: groove 1px gray;
+  width: 90%;
+  margin-bottom: 80px;
+}
+
+p{
+  font-size: 16px;
+  margin-left: 5vw;
+}
+
+a{
+  text-decoration: underline;
+  color: darkgreen
+}
+
+.h2_3{
+  text-align: left;
+  margin-left: 5vw;
+  margin-top: 30px;
+  margin-bottom: 0px;
+  font-size: 32px;
+}
+.button_1{
+  text-align: center;
+  font-size: 64px;
+}
+.button_1 button{
+  width: 200px;
+  height: 100px;
+  cursor: pointer;
+  font-size: 32px;
+}
+.h2_4{
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 100px;
+  color: red;
+}
