@@ -80,7 +80,7 @@ p{
 }
 
 a{
-  text-decoration: underline;
+  text-decoration: none;
   color: darkgreen
 }
 
@@ -111,4 +111,9 @@ a{
   font-size: 24px;
   text-align: left;
   margin-left: 5vw;
+}
+.h1_war{
+  color: red;
+  font-size: 64vw;
+  text-align: center;
 }
