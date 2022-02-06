@@ -77,6 +77,7 @@ footer{
 p{
   font-size: 16px;
   margin-left: 5vw;
+  margin-right: 5vw;
 }
 
 a{
@@ -114,6 +115,14 @@ a{
 }
 .h1_war{
   color: red;
-  font-size: 64vw;
+  font-size: 12vw;
+  text-align: center;
+}
+.a_1{
+  margin-right: 1vw;
+  text-align: center;
+}
+.a_2{
+  margin-left: 1vw;
   text-align: center;
 }
