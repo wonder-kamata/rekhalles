@@ -1,39 +1,19 @@
 
-const countUp = () => {
-  let rate
-  rate = Math.random()
-  rate += 0.5
-  rate = Math.round(rate*10)/10
-  return rate
+const ryud = () => {
+  let rated
+  rated = Math.random()
+  rated += 0.5
+  rated = Math.round(rated*10)/10
+  return rated
 }
-
-const ex = () => {
-  let example
-  example = Math.round(123.456)
-  return example
-}
-// let ugoki = countUp();
-
-// setInterval(() => {
-//   const rate = countUp();
-//   console.log(rate);
-// }, 1000);
-
-// ugoki = countUp();
-// console.log(ugoki);
 
 window.onload=function(){
-  var date=new Date();
 
-  document.getElementById("dollars").innerHTML = ex();
+  document.getElementById("ryud").innerHTML = ryud();
 
   setInterval(() => {
-    const rate = countUp();
-    console.log(rate);
-    var date=new Date();
-    // document.getElementById("dollars").innerHTML = rate;
-    document.getElementById("dollars").innerHTML = rate;
-  }, 1000);
-
-// document.getElementById("dollars").innerHTML = date.getDate();
+    const rated = ryud();
+    console.log(rated);
+    document.getElementById("ryud").innerHTML = rated;
+  }, 30000);
 }

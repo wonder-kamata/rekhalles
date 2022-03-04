@@ -1,5 +1,5 @@
 # rekhalles
-ALL OF THIS SITE IS FICTION!!!
+EVERYTHING ON THIS SITE IS FICTION!!!
 
 This site is fiction, the names of people, places, and countries that appear are fictitious or different from historical facts.
 

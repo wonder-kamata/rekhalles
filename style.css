@@ -1,6 +1,6 @@
 .hammer_header{
-  width: 135.75px;
-  height: 128px;
+  width: 162.9px;
+  height: 153.6px;
   margin-left: 50px;
 }
 
@@ -125,4 +125,32 @@ a{
 .a_2{
   margin-left: 1vw;
   text-align: center;
+}
+
+.exchange{
+  text-align: right;
+  font-size: 32px;
+  text-decoration: none;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.nav_main{
+  display: flex;
+  margin-right: 5vw;
+  /* font-size: 20px; */
+  list-style: none;
+  margin-top: 5vw;
+}
+
+.nav_main li{
+  margin-left: 2vw;
+  font-size: 32px;
+  text-decoration: none;
+}
+
+.nav_main li a{
+  color: #000000;
 }
