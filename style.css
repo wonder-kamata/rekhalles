@@ -154,3 +154,38 @@ header{
 .nav_main li a{
   color: #000000;
 }
+.news{
+  display: grid;
+  grid-gap: 3vw;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  margin-bottom: 16px;
+}
+.item{
+  width: 30vw;
+  height: calc(30vw * (2/3));
+  text-align: left;
+}
+.news_item_1{
+  background-image: url("img/flag.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.item div {
+  width: 90%;
+  height: 90%;
+}
+.item > p {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  margin-left: auto;
+  color: #000000;
+  transition: all 0.5s 0s ease;
+}
+.item > p:hover {
+  padding: 0 1vw 0;
+}
