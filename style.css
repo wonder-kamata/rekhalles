@@ -160,7 +160,6 @@ header{
   grid-template-columns: 1fr 1fr 1fr;
   margin-left: 5vw;
   margin-right: 5vw;
-  margin-bottom: 16px;
 }
 .item{
   width: 30vw;
